@@ -19,7 +19,7 @@ public class Test {
 		//Now StringBuilder("s1"); is eligible for garbage collection
 		
 
-		System.out.println("Test");
+		
 
 	}
 
