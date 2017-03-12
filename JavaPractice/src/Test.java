@@ -18,6 +18,9 @@ public class Test {
 		s1 = s2;
 		//Now StringBuilder("s1"); is eligible for garbage collection
 		
+
+		System.out.println("Test");
+
 	}
 
 }
