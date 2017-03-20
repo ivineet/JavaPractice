@@ -1,12 +1,3 @@
-//Declaring enumerations/
-/*
- * Enums can be declared as their own separate class, or as a class member,	
- * however they must not be declared within a method!
- * 
- */
-
-import java.lang.Enum;
-
  /*
   * Note: 
   * 1. An enum can be declared outside or inside a class, but NOT in a method
