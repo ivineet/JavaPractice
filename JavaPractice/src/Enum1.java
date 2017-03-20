@@ -7,16 +7,27 @@
 
 import java.lang.Enum;
 
+enum CoffeeSize { SMALL, BIG } //enum outside class
+
+
+class Coffee{
+	
+	CoffeeSize size;
+}
 
 public class Enum1 {
 	
-	enum CoffeeSize { SMALL, BIG } // semicolon is optional
+	 // semicolon is optional
+	
+	
+	
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		CoffeeSize cs = CoffeeSize.SMALL;
-		
-		System.out.println(cs);
+		Coffee drink = new Coffee();
+		drink.size = CoffeeSize.SMALL;
+		System.out.println(drink.size);
 
 	}
 
