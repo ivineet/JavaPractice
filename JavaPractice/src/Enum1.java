@@ -7,10 +7,12 @@
 
 import java.lang.Enum;
 
-enum CoffeeSize { SMALL, BIG } //enum outside class
+ //enum outside class
 
 
 class Coffee{
+	
+	enum CoffeeSize { SMALL, BIG } //enum inside class
 	
 	CoffeeSize size;
 }
@@ -26,7 +28,7 @@ public class Enum1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Coffee drink = new Coffee();
-		drink.size = CoffeeSize.SMALL;
+		drink.size = Coffee.CoffeeSize.SMALL;  //enclosing class name reuired
 		System.out.println(drink.size);
 
 	}
