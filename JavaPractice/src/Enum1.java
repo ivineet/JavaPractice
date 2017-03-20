@@ -10,7 +10,7 @@ import java.lang.Enum;
 
 public class Enum1 {
 	
-	enum CoffeeSize { SMALL, BIG }; // semicolon is optional
+	enum CoffeeSize { SMALL, BIG } // semicolon is optional
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
