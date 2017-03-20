@@ -43,11 +43,11 @@ public class Enum2 {
 }
 
 
-/* You can NEVER invoke an enum constructor directly. The enum constructor
+/*  We can NEVER invoke an enum constructor directly. The enum constructor
 	is invoked automatically, with the arguments you define after the constant
 	value. For example, BIG(8) invokes the CoffeeSize constructor that takes
 	an int, passing the int literal 8 to the constructor. (Behind the scenes, of
-	course, you can imagine that BIG is also passed to the constructor, but we
+	course, we can imagine that BIG is also passed to the constructor, but we
 	don't have to know—or care—about the details.)
  */
 
