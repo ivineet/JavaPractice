@@ -2,16 +2,16 @@ package innerclasses;
 
 //Inner class Example
 public class Outer1 {
-	private int ivar;
+	private int ivar = 10;
 
 	private class Inner { // inner class
-		private int num; // (could have an Inner() ctor)
+		private int ivar = 20; // (could have an Inner() ctor)
 
 		private void foo() {
-			num++; // can access our regular inner ivar
-			ivar = 13; // we can "see" our outer class automatically
-			Outer1.this.ivar = 13; // same as above
-			System.out.println(num);
+			 // can access our regular inner ivar
+			; // we can "see" our outer class automatically
+			//Outer1.this.ivar = 13; // same as above
+			System.out.println(ivar);
 		}
 
 		public String toString() {
