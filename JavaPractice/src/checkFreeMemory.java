@@ -21,7 +21,6 @@ public class checkFreeMemory {
 		
 		System.out.println("Total memory: "+rt.totalMemory());
 		System.out.println("Free memory: "+rt.freeMemory());
-		//xyz
 
 	}
 
