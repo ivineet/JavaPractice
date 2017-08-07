@@ -7,10 +7,12 @@ class Popcorn {
 	}
 }
 
-class Food {
+class Food1 {
 	Popcorn p = new Popcorn() {
 		public void pop() {
 			System.out.println("anonymous popcorn");
 		}
 	};
+	
+	
 }

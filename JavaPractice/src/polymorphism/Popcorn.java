@@ -19,7 +19,7 @@ class Food {
 
 	public void popIt() {
 		p.pop(); // OK, Popcorn has a pop() method
-		p.sizzle(); // Not Legal! Popcorn does not have sizzle()
+		//p.sizzle(); // Not Legal! Popcorn does not have sizzle()
 	}
 }
 
